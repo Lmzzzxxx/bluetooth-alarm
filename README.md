@@ -131,3 +131,7 @@ app/src/main/kotlin/com/demo/btalarm/
 ├── system/         权限检查、通知渠道
 └── ui/             Compose 界面
 ```
+
+## 许可证
+
+[MIT](LICENSE) © 2026 Lmzzzxxx
