@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  闹钟状态不做云备份、也不做换机迁移：恢复到另一台设备上的旧排期没有意义，
+  反而可能造成「明明没设闹钟却响了」。allowBackup=false 已经关掉备份，
+  这里再显式声明一次，避免不同 ROM 上的行为差异。
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="." />
+        <exclude domain="database" path="." />
+        <exclude domain="file" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="." />
+        <exclude domain="database" path="." />
+        <exclude domain="file" path="." />
+    </device-transfer>
+</data-extraction-rules>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">蓝牙闹钟</string>
+
+    <string name="tab_alarms">闹钟</string>
+    <string name="tab_health">保活与权限</string>
+
+    <string name="empty_title">还没有闹钟</string>
+    <string name="empty_subtitle">点右下角 + 添加一个</string>
+
+    <string name="add_alarm">添加闹钟</string>
+    <string name="edit_alarm">编辑闹钟</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+
+    <string name="label_hint">标签（可选）</string>
+    <string name="repeat">重复</string>
+    <string name="music">铃声</string>
+    <string name="music_default">默认闹铃</string>
+    <string name="music_pick">选择音乐</string>
+    <string name="vibrate">震动</string>
+    <string name="bluetooth_only">仅蓝牙播放</string>
+    <string name="bluetooth_only_desc">没连蓝牙耳机时不在扬声器外放</string>
+    <string name="snooze_minutes">稍后提醒间隔</string>
+    <string name="ramp_volume">音量渐强</string>
+
+    <string name="weekday_mon">一</string>
+    <string name="weekday_tue">二</string>
+    <string name="weekday_wed">三</string>
+    <string name="weekday_thu">四</string>
+    <string name="weekday_fri">五</string>
+    <string name="weekday_sat">六</string>
+    <string name="weekday_sun">日</string>
+
+    <string name="repeat_once">仅一次</string>
+    <string name="repeat_everyday">每天</string>
+    <string name="repeat_workdays">工作日</string>
+    <string name="repeat_weekend">周末</string>
+
+    <string name="ring_snooze">稍后提醒</string>
+    <string name="ring_dismiss">关闭</string>
+    <string name="ring_via_bluetooth">正在通过蓝牙播放：%1$s</string>
+    <string name="ring_via_speaker">未连接蓝牙，正在用扬声器播放</string>
+    <string name="ring_silent_no_bt">已开启「仅蓝牙播放」，未连接蓝牙耳机，本次静默</string>
+    <string name="ring_music_missing">原音乐无法播放，已改用默认闹铃</string>
+    <string name="ring_channel_name">闹钟响铃</string>
+    <string name="ring_notification_title">闹钟</string>
+
+    <string name="keepalive_channel_name">闹钟守护</string>
+    <string name="keepalive_notification_title">蓝牙闹钟守护中</string>
+    <string name="keepalive_notification_text">保持后台常驻，确保闹钟准时响铃</string>
+    <string name="keepalive_toggle">常驻保活服务</string>
+    <string name="keepalive_toggle_desc">显示一条常驻通知，显著降低被系统/厂商 ROM 清理的概率</string>
+
+    <string name="health_title">保活与权限</string>
+    <string name="health_intro">闹钟能不能准时响，取决于下面几项。建议全部开启。</string>
+    <string name="health_exact_alarm">精确闹钟权限</string>
+    <string name="health_exact_alarm_desc">Android 12+ 必须授予，否则系统会推迟响铃</string>
+    <string name="health_notification">通知权限</string>
+    <string name="health_notification_desc">响铃界面和常驻通知需要</string>
+    <string name="health_fullscreen">全屏通知</string>
+    <string name="health_fullscreen_desc">锁屏时直接弹出响铃界面</string>
+    <string name="health_battery">电池优化白名单</string>
+    <string name="health_battery_desc">避免系统在深度睡眠时冻结闹钟</string>
+    <string name="health_autostart">厂商自启动白名单</string>
+    <string name="health_autostart_desc">国产 ROM 需要手动允许，否则重启后闹钟可能失效</string>
+    <string name="health_ok">已开启</string>
+    <string name="health_todo">去开启</string>
+
+    <string name="notif_permission_needed">通知权限未开启，响铃提醒可能无法显示</string>
+    <string name="exact_permission_needed">精确闹钟权限未开启，闹钟可能延迟</string>
+</resources>

@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 本机专属配置（含 SDK 绝对路径），照 Android 惯例不入库
+local.properties
+
+# 构建产物
+*.apk
+*.aab
+*.ap_
+*.dex
+output.json
+
+# 签名材料，绝不入库
+*.jks
+*.keystore
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db

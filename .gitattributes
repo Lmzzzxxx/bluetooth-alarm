@@ -1,0 +1,12 @@
+# 仓库内统一按 LF 存储。gradlew 是 shell 脚本，在 Windows 上检出时若被转成
+# CRLF，拿到 Linux/macOS 上会因为 shebang 行尾的 \r 直接执行失败。
+* text=auto eol=lf
+
+# 这两个必须是 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.jar binary
+*.png binary
+*.jpg binary
+*.keystore binary

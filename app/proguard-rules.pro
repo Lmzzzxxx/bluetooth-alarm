@@ -1,0 +1,5 @@
+-keep class com.demo.btalarm.alarm.Alarm { *; }
+-keep class com.demo.btalarm.alarm.AlarmReceiver { *; }
+-keep class com.demo.btalarm.alarm.BootReceiver { *; }
+-keep class com.demo.btalarm.alarm.WatchdogReceiver { *; }
+-keep class com.demo.btalarm.ring.AlarmRingService { *; }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BtAlarm" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#FF101418</item>
+    </style>
+
+    <style name="Theme.BtAlarm.Ring" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowShowWallpaper">false</item>
+    </style>
+</resources>
