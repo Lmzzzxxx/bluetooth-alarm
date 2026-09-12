@@ -18,6 +18,7 @@ local.properties
 *.ap_
 *.dex
 output.json
+dist/
 
 # 签名材料，绝不入库
 *.jks
